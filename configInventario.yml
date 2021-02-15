@@ -1,2 +1,9 @@
 quantIniziale: 0
 descrDefault: "sconosciuto"
+
+server:  
+    type: simple  
+    applicationContextPath: /  
+    connector:    
+        type: http    
+        port: 50000
